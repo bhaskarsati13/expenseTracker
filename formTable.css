@@ -1,0 +1,23 @@
+.formTable {
+    /* width: 100%; */
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+  }
+  
+  .formTable th, .formTable td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+  }
+  
+  .formTable th {
+    background-color: #f4f4f4;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .formTable td {
+    color: #555;
+  }
+  

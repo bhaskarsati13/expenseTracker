@@ -1,0 +1,35 @@
+.ourContextMenu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+    border: 1px solid #ddd; 
+    border-radius: 6px;
+    width: 60px;
+    height: 60px;
+    background: #f7f7f7;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.2s ease; 
+    position: relative;
+  }
+  
+  .ourContextMenu.hideIt {
+    display: none;
+  }
+  
+  .ourContextMenu:hover {
+    transform: scale(1.1); 
+  }
+  
+  .ourContextMenu div {
+    font-size: 14px;
+    font-weight: 500;
+    color: #555;
+    cursor: pointer;
+  }
+  
+  .ourContextMenu div:hover {
+    color: #007bff; 
+  }
+  
